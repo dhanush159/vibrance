@@ -1,0 +1,79 @@
+html,
+body {
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    background-image: url(../img/wall12.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+header {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    /* padding: 0 225px; */
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+    align-items: center;
+    display: gridbox;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    color: rgb(152, 194, 231);
+    text-align: center;
+    align-items: center;
+    backdrop-filter: blur(14px);
+    background-color: rgba(0, 0, 0, 0.21);
+    box-shadow: inset 5px 5px 26px #1d1c1c,
+            inset -5px -5px 26px #737272;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(152, 194, 231);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 45px;
+        padding: 0px 0px;
+    }
+}

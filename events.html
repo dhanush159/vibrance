@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Dhanush S">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/web/css/event_style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/web/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/web/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/web/img/favicon-16x16.png">
+    <link rel="manifest" href="/web/img/site.webmanifest">
+    <title>Events</title>
+</head>
+
+<body>
+    <header><br>
+        <nav class="navbar navbar-expand-lg navbar-dark text-info-emphasis fixed-top"
+            style="background-color: #00050a00; padding-left: 2%; padding-right: 4%;">
+            <div class="container-fluid text-info-emphasis"
+                style="background-color: #010003aa; padding: 5px; font-size: 1.1em;">
+                <a class="navbar-brand" href="/web/index.html" style="font-size: 2em;">Vibrance 2023</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" style="font-size: 1em;">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web/index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web/index.html#sponsors">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web/schedule.html">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Event List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web/index.html#contact-us">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web/admin_login.php">Admin Login</a>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1 style="font-size: 4em; color: #7df4f4;">Events</h1>
+    </header><br /><br />
+    <section>
+        <div class="row" id="e_names">
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">EASTERN GROUP DANCE</h5>
+                        <p class="card-text">
+                            Vibrant, rich in culture, and emotive - we want to see you set our stage on fire! Your
+                            grace,
+                            precision and expressivity will win you admiration, cheers, and prizes you do not want to
+                            lose!</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 19rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">WESTERN GROUP DANCE</h5>
+                        <p class="card-text">
+                            Hip-Hop and house, flips and stunts, this event has everything to get your feet moving. A
+                            good sense of musicality and a perfect sense of groove can get you right to the top of this
+                            competition.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">BATTLE OF THE BANDS</h5>
+                        <p class="card-text">
+                            The crash of the drums and the slap of the bass, the insane electric guitar solos topped
+                            with breathtaking vocals, an electrifying atmosphere - A perfect scene of a perfect 'Battle
+                            of Bands'!</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal3" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="e_names">
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">CADENZA</h5>
+                        <p class="card-text">
+                            The human voice is the most exquisite instrument there is. From silky smooth R&B to belting
+                            high notes of pop, here's your chance to flaunt and celebrate your unique style and range.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal4" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">MAD ADS</h5>
+                        <p class="card-text">
+                            As the name suggests, it's about mad advertisements, it is a crude form of theatre. The name
+                            is also a bit of a misnomer though, in the sense that it's not about making your own ads but
+                            spoofing existing ad.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal5" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">LAST ACTOR STANDING</h5>
+                        <p class="card-text">
+                            The event where you bring out the face of the unbeatable actor hiding in you. ad Natak'</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal6" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="e_names">
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">COD MOBILE</h5>
+                        <p class="card-text">
+                            Teams of 4 participate in an ultimate showdown to win the tournament. Test your skills
+                            against your peers and rise above the rest to take home the “chicken dinner”!</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal7" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">VALORANT TOURNAMENT</h5>
+                        <p class="card-text">
+                            A 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities. Teams
+                            will be stacked against each other in an intense gameplay of attacking and defending.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal8" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">BATTLE OF BRAINS</h5>
+                        <p class="card-text">
+                            Have you ever wondered what you'd get if you combine a game of conquest with math, mystery
+                            and the essence of wars? Sounds interesting right?
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal9" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="e_names">
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">INFINITE AMAZE</h5>
+                        <p class="card-text">
+                            Head over and participate in this absurdly intriguing event wherein your wit will be put to
+                            the test in a series of exciting mazes, puzzles, and more!</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal10" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">SHILAH</h5>
+                        <p class="card-text">
+                            The awe factor in
+                            nature is sure to inspire the creativity of our beauty, fashion and clothing; encompassing
+                            personality, color and variety. Expand your horizons of style and get ready to wow us with
+                            your performance!
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal11" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">AD JUNK</h5>
+                        <p class="card-text">
+                            Adrenaline Junkyard (Ad Junk) is an obstacle course comprising of a series of challenging
+                            obstacles designed to test the stamina and strength of the participants through which the
+                            team must navigate within the stipulated time period.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal12" style="background-color: transparent;">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● A minimum of 8 and a maximum of 15 in a team and a maximum of 12 On-Stage.<br />
+                    ● Time limit 5+1 minutes. Maximum of 1 minute will be allowed for stage setting.<br />
+                    ● Prelims will be held through video screening, send your videos to<br />
+                    paramvahbmsce@gmail.com before 20th May.<br />
+                    ● Bollywood Style and Classical Style is not allowed.<br />
+                    ● Only Indian Style and Contemporary Dance Form is allowed.<br />
+                    ● The music tracks should be on a pen-drive.<br />
+                    ● Props are allowed, any kind of fluid, heavy objects or flame are not permitted.<br />
+                    ● No profanity is to be displayed.<br />
+                    ● Judge's decision is final.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● A minimum of 10 and a maximum of 15 in a team and a maximum of 12 On-Stage.<br />
+                    ● Time limit 5+1 minutes. Maximum of 1 minute will be allowed for stage setting.<br />
+                    ● Prelims will be held, send your videos to danzaddix.bmsce@gmail.com before 20th<br />
+                    May
+                    ● No other styles of dancing are permitted other than Western.<br />
+                    ● The music tracks should be on a pen-drive.<br />
+                    ● Props are allowed, any kind of fluid, heavy objects or flame are not permitted.<br />
+                    ● No profanity is to be displayed<br />
+                    ● Bollywood Dance is not allowed.<br />
+                    ● Judge's decision is final.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● The band can consist of a maximum of 8 members.<br />
+                    ● Time limit: 9 + 3 minutes<br />
+                    ● If a band exceeds the time limit the mics would be cut off<br />
+                    ● A drum kit would be provided along with mics<br />
+                    ● Other instruments won't be provided<br />
+                    ● No backing tracks are allowed<br />
+                    ● No vulgarity is allowed<br />
+                    ● Own Compositions would be given priority<br />
+                    ● Participants will not be allowed to play for multiple bands<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● Vocalists are allowed to perform with an accompanist<br />
+                    ● The accompanist will not be judged<br />
+                    ● No backing tracks are allowed<br />
+                    ● Vocalists are allowed to perform only in English<br />
+                    ● Time Limit: 5min<br />
+                    ● If the time limit is exceeded, the mics will be cut off.<br />
+                    ● The participants will be judged on vocal technique, pitch, rhythm, tempo,<br />
+                    showmanship, expression, and overall appeal<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● The team must contain 6+1 members. (1 narrator)<br />
+                    ● Time duration is 6+2 minutes.<br />
+                    ● No props are allowed.<br />
+                    ● Any language of your choice.<br />
+                    ● No vulgarity, any sort will lead to disqualification.<br />
+                    ● Teams must report to the venue 10 minutes prior to the event timings.<br />
+                    ● Judges' decision is final.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● This is an individually performing event.<br />
+                    ● For the first round participants have to come prepared with a 2+1 min monologue<br />
+                    (no language barrier).<br />
+                    ● Participants on progression to the next round will be informed of details of the same<br />
+                    on spot.<br />
+                    ● The decision of the will be final.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● All four players from each team must be present in the venue during the time of<br />
+                    the event, if not present the squads will not be eligible for the competition.<br />
+                    ● Emulators, triggers, any other attachment is prohibited.<br />
+                    ● Players can use discord channels provided by the organizers only.<br />
+                    ● The competition will have two rounds<br />
+                    ● The teams will be split into two rooms where top 50 % of the teams in a room<br />
+                    progress to final round.<br />
+                    ● The final round will have the top teams battle against each other to win the<br />
+                    tournament.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● Online: Qualification (Best of 1)<br />
+                    ● Offline: Play-off games (Best of 3)<br />
+                    ● Participants are required to bring their own laptops and peripherals for play-offs<br />
+                    (Headphones and Mouse)<br />
+                    ● Play-off games: Lower bracket finals, Upper bracket semi-finals and Upper<br />
+                    bracket finals.<br />
+                    ● Game mode will be standard (first to 13 wins)<br />
+                    ● Players can bring their own mouse, mousepad and headphones if required<br />
+                    (NOTE: If the mouse doesn't work due to lack of drivers, nothing can be done.)<br />
+                    ● Tournament will be divided into two brackets, upper and lower.<br />
+                    ● Match fixtures to be decided after registrations.<br />
+                    ● There will be a central discord server, each team will have to communicate using<br />
+                    the central discord server.<br />
+                    ● Each team will have 2 timeouts, once in attack and once in defense. Finals will be<br />
+                    best of 3 maps. Eliminate 3 maps.<br />
+                    ● Maps are:- (i) Ascent, Bind, Breeze, Haven, Split, Icebox<br />
+                    ● Coin toss for map elimination, loser picks attack/defense<br />
+                    ● If any team/team member is facing ping issues it will not be Respawn's<br />
+                    responsibility. No rematch will take place. The match will continue as it is.<br />
+                    ● No refunds will be given.<br />
+                    ● Each game will be spectated by a mod who doesn't know anyone in either of the<br />
+                    teams.<br />
+                    ● No profanity in the game chat.<br />
+                    ● Pre-Qualifiers will be held on 25th,May(Online mode)<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● It comprises of 3 rounds wherein the first round is a party game involving either a<br />
+                    participant from every team or the whole set of teams itself. Elimination will be<br />
+                    minimal<br />
+                    ● In the second round, the teams will given cut-out paper pieces containing bits of an<br />
+                    equation. Using the sequence of the equation, they need to arrange these pieces to<br />
+                    get the correct parent shape of the paper. Three such sets will be given.<br />
+                    Simultaneously, the teams will have to complete a quiz and submit it before the<br />
+                    round ends (subject to change) . Immunity is awarded to the teams completing both<br />
+                    tasks effectively<br />
+                    ● Third round starts off with players buying cards related to attack and defense of<br />
+                    three types: Land, Air and Hybrid. Each team owns a region of a map which<br />
+                    corresponds to one of the 5 elements. A formula would be given, (such as 2*Fire +<br />
+                    1*Water + 1*Earth) and the goal is to wage war with the regions having the elements<br />
+                    that you need by using the cards in your deck and placing three at a time<br />
+                    ● Certain combinations of the cards are favourable against the others. Based on this,<br />
+                    the team completing their formula first wins the game<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● The event will have two rounds. The first round will be a math based quiz to test the<br />
+                    logical thinking and arithmetic of participants. Questions will involve logical<br />
+                    reasoning concepts majorly and will not require daunting formulas to solve.<br />
+                    ● The 2nd round will consist of 2 sub rounds. First sub round will involve two teams<br />
+                    battling each other to complete two mazes within the shortest time possible.<br />
+                    Second one will be a round involving “Jenga” wherein teams try to avoid crashing<br />
+                    the Jenga structure.<br />
+                    ● The Final round will involve 4-5 teams trying to complete a very large maze in the<br />
+                    shortest time possible.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● Time limit : 6+2 mins including introduction speech (exceeding the time limit will<br />
+                    lead to negative marking)<br />
+                    ● Teams are free to design their clothes and props.<br />
+                    ● Teams will be judged based on : Theme integration, creativity with props, clothing,<br />
+                    choreography of the walk, music choice and overall presentation.<br />
+                    ● Vulgarity in clothing will lead to immediate disqualification.<br />
+                    ● Participants cannot be shirtless.<br />
+                    ● Skirts/dresses above knee length must be worn with stockings.<br />
+                    ● All teams must be on time and adhere to the rules.<br />
+                    ● Audio file for music must be submitted 2 days prior to the event via mail id.<br />
+                    ● THEME : Open theme<br />
+                    ● No. of participants:8 -12(participants) +4(volunteers)<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class= "modal-content" style="background-color: rgb(0, 0, 0); color: aliceblue;">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    Rules and Regulations: <br/><br/>
+                    ● The participants must complete/navigate through obstacles in the mentioned order.<br />
+                    ● The participants shall be charged with time penalties if found non-compliant with<br />
+                 rules for each obstacle.<br />
+                    ● Only one attempt per team will be permitted on the course.<br />
+                    ● The participants will be asked to quit the course if they are found to exceed the<br />
+                    maximum permitted time allowed on the course.<br />
+                    ● The course briefing shall be done on the day of the event.<br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
